@@ -2,7 +2,7 @@
 ## A project to implement CSS framework using Bootstrap 4
 ### I used to clone the newsweek website
 
-##Contributers
+## Contributers
 Salum Habibu
 
-##live version
+## live version
