@@ -24,10 +24,15 @@ header{
         font-family: $font-roboto-condensed;
         size:2.1rem;
         weight:bold;
+        padding: 3rem;
+        
     }
     .nav-link{
         &:hover{
             color:$bgColor;
         }
     }
+}
+svg{
+    fill:white;
 }
