@@ -1,0 +1,33 @@
+//********************************************* nav file    *************************************************************************************
+//**********************    styling header  *******************************************************************************
+header{
+    background: $bgColor;
+    padding:1rem;
+    font: {
+        size: 1.6rem;
+        family:$font-roboto-condensed;
+    }
+   .row{
+       div{
+           .btn{
+               font: {
+                   family:$font-roboto-condensed;
+                   size: 1.8rem;
+                   align-items: end;
+               }
+           }
+       }
+   }
+}
+.navbar-item{
+    font:{
+        font-family: $font-roboto-condensed;
+        size:2.1rem;
+        weight:bold;
+    }
+    .nav-link{
+        &:hover{
+            color:$bgColor;
+        }
+    }
+}
