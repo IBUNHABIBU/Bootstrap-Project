@@ -1,0 +1,31 @@
+// *********************** SIGN UP NEWSLETTER   *********************************************************
+.sign-up-newsletter{
+    padding:1rem;
+    background: $lightColor;
+
+    p{
+        @include typo($font-roboto-condensed,1.7rem,none,white);
+    }
+    h2{
+        
+        @include typo($font-roboto-condensed,1.7rem,none,white);
+    }
+    img{
+        width:5rem;
+        background-color: red;
+    }
+}
+
+
+.inthe-magazine{
+
+    .row {
+
+        .col-lg-3{
+
+            img {
+                width:33rem;
+            }
+        }
+    }
+}

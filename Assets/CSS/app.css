@@ -25,6 +25,26 @@ svg {
   background: red;
   color: white; }
 
+.sign-up-newsletter {
+  padding: 1rem;
+  background: #555555; }
+  .sign-up-newsletter p {
+    color: white;
+    font-size: 1.7rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: none; }
+  .sign-up-newsletter h2 {
+    color: white;
+    font-size: 1.7rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: none; }
+  .sign-up-newsletter img {
+    width: 5rem;
+    background-color: red; }
+
+.inthe-magazine .row .col-lg-3 img {
+  width: 33rem; }
+
 header {
   background: #F72210;
   padding: 1rem;
