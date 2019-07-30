@@ -37,6 +37,16 @@ header {
 .more-story-container .row .col-4 img {
   height: 30rem; }
 
+.latest-news .row .col-3 img {
+  width: 10rem; }
+
+a {
+  color: black; }
+
+a:hover {
+  color: #F72210;
+  text-decoration: none; }
+
 .story-heading {
   width: 26rem;
   color: #333333;
@@ -64,13 +74,13 @@ header {
 
 .more-story-heading {
   color: #000000;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold; }
 
 .more-story-paragraph {
   color: #333333;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: none; }
 
