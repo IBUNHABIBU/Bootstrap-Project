@@ -1,0 +1,22 @@
+.story-heading{
+    width:26rem;
+    @include typo($font-roboto-condensed,1.6rem,none,$titleColor);
+}
+.news-heading{
+    @include typo($font-roboto-condensed,2.4rem,none,$primaryColor);
+}
+
+.news-paragraph{
+    @include typo($font-stack-arial,1.5rem,none,$secondaryColor);
+}
+
+.picture-heading{
+    @include typo($font-roboto-condensed,1.7rem,500,$bgColor);
+}
+.more-story-heading{
+    @include typo($font-roboto-condensed,2.2rem,500,$primaryColor);
+}
+.more-story-paragraph{
+
+    @include typo($font-roboto-condensed,2.2rem,1500,$secondaryColor);
+}

@@ -1,0 +1,9 @@
+//****************************************  MIXIN   ****************************************************************************
+@mixin typo($family,$size,$weight,$colorvar){
+    font:{
+        size:$size;
+        family: $family;
+        weight:$weight;
+        color:$colorvar;
+    }
+}
