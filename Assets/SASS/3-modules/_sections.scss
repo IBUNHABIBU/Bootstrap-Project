@@ -1,6 +1,6 @@
 .story-heading{
     width:26rem;
-    @include typo($font-roboto-condensed,1.6rem,none,$titleColor);
+    @include typo($font-roboto-condensed,1.6rem,bold,$secondaryColor);
 }
 .news-heading{
     @include typo($font-roboto-condensed,2.4rem,none,$primaryColor);
@@ -11,12 +11,12 @@
 }
 
 .picture-heading{
-    @include typo($font-roboto-condensed,1.7rem,500,$bgColor);
+    @include typo($font-roboto-condensed,1.7rem,none,$bgColor);
 }
 .more-story-heading{
-    @include typo($font-roboto-condensed,2.2rem,500,$primaryColor);
+    @include typo($font-roboto-condensed,1.7rem,bold,$primaryColor);
 }
 .more-story-paragraph{
 
-    @include typo($font-roboto-condensed,2.2rem,1500,$secondaryColor);
+    @include typo($font-roboto-condensed,1.5rem,none,$secondaryColor);
 }
