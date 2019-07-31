@@ -4,6 +4,7 @@
 }
 .news-heading{
     @include typo($font-roboto-condensed,2.4rem,none,$primaryColor);
+    
 }
 
 .news-paragraph{
@@ -11,7 +12,13 @@
 }
 
 .picture-heading{
-    @include typo($font-roboto-condensed,1.7rem,none,$bgColor);
+    @include typo($font-roboto-condensed,1.7rem,bold,$bgColor);
+    @include position(relative,-4rem null);
+    @include padding(1rem 1rem);
+   
+    background: rgb(253, 248, 248);
+    width:30%;
+
 }
 .more-story-heading{
     @include typo($font-roboto-condensed,1.4rem,bold,$primaryColor);
@@ -19,4 +26,21 @@
 .more-story-paragraph{
 
     @include typo($font-roboto-condensed,1.4rem,none,$secondaryColor);
+}
+.culture-travel{
+    background: rgb(247, 246, 246);
+    h4{
+           @include typo($font-stack-arial,2rem,bold,#272727);
+    }
+    p{
+        @include typo($font-stack-helvetica,1.5rem,none,#272727);
+    }
+    a{
+        @include typo($font-stack-helvetica,1.3rem,none,#272727);
+        background: #dad7d7;
+        @include padding(0.5rem 1rem);
+        &:hover{
+            background: #5f5f5f;
+        }
+    }
 }
