@@ -187,11 +187,17 @@ a:hover {
     border-bottom: solid 0.1rem #cac7c7; }
 
 .news-letter1 {
-  padding: 2rem 1rem; }
-  .news-letter1 img:first-child {
+  padding: 2rem 1rem;
+  background: #cac7c7; }
+  .news-letter1 img:nth-child(2) {
     position: relative;
-    top: -5rem;
-    left: -5rem;
-    z-index: -107; }
+    top: 1rem;
+    left: -10rem; }
+  .news-letter1 img:nth-child(1) {
+    padding-right: 0;
+    padding-left: 7rem; }
+
+.news-letter2 {
+  background: #cac7c7; }
 
 /*# sourceMappingURL=app.css.map */

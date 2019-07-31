@@ -92,12 +92,19 @@
 }
 .news-letter1{
     @include padding(2rem 1rem);
+    
+    background: $lighter;
     img{
-        &:first-child{
+        &:nth-child(2){
             position: relative;
-            top:-5rem;
-            left:-5rem;
-            z-index: -107;
+            top:1rem;
+            left:-10rem;
+        }
+        &:nth-child(1){
+            @include padding( null 0 null 7rem); 
         }
     }
+}
+.news-letter2{
+    background: $lighter;
 }
