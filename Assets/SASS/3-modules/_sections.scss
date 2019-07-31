@@ -91,9 +91,29 @@
     }
 }
 .news-letter1{
-    @include padding(2rem 1rem);
+    @include padding(4rem 3rem);
+    width:90%;
+    background: rgb(221, 220, 220);
     
-    background: $lighter;
+    h5{
+        @include typo($font-roboto-condensed,2.1rem,bold,$primaryColor); 
+        position: relative;
+        left:-8rem;
+        width:130%;
+    }
+    .btn{
+        background: $bgColor;
+        @include typo($font-roboto-condensed,2.1rem,none,none);
+        border:none;
+        &:after{
+            content:"https://g.newsweek.com/www/images/icon-arrow-right.svg";
+        }
+    }
+    p{
+        position: relative;
+        left:-8rem;
+        @include typo($font-stack-helvetica,1.5rem,none,$primaryColor); 
+    }
     img{
         &:nth-child(2){
             position: relative;
@@ -106,5 +126,5 @@
     }
 }
 .news-letter2{
-    background: $lighter;
+    background:rgb(221, 220, 220);
 }
