@@ -1,11 +1,21 @@
 // **************************   IMAGES  ***********************************************
 .more-story-container
- .row .col-4
-  img{
-    height:20rem;
+{ 
+    .row {
+        border-top:1px solid $lighter;
+        @include padding(2rem null null null);
+        .col-4{
+           
+        }
+    }
+
 }
-
-
+.opinion-container{
+.row{
+    border-bottom:1px solid $lighter;
+    @include padding(2rem null 1rem null);
+}
+}
 .latest-news 
     {
 .row .col-3 

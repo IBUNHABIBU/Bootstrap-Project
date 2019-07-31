@@ -28,6 +28,7 @@
     @include typo($font-roboto-condensed,1.4rem,none,$secondaryColor);
 }
 .culture-travel{
+    @include padding(1rem null);
     background: rgb(247, 246, 246);
     h4{
            @include typo($font-stack-arial,2rem,bold,#272727);
