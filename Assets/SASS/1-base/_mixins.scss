@@ -8,3 +8,7 @@
       
     }
 }
+@mixin hover-action($decoration,$tcolor){
+text-decoration: $decoration;
+text-decoration-color: $tcolor;
+}

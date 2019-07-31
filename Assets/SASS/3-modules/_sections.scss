@@ -15,7 +15,6 @@
     @include typo($font-roboto-condensed,1.7rem,bold,$bgColor);
     @include position(relative,-4rem null);
     @include padding(1rem 1rem);
-   
     background: rgb(253, 248, 248);
     width:30%;
 
@@ -30,6 +29,7 @@
 .culture-travel{
     @include padding(1rem null);
     background: rgb(247, 246, 246);
+
     h4{
            @include typo($font-stack-arial,2rem,bold,#272727);
     }
@@ -42,6 +42,62 @@
         @include padding(0.5rem 1rem);
         &:hover{
             background: #5f5f5f;
+        }
+    }
+}
+.features-world-container{
+    .features-world-row{
+        .features-world-col{
+            h2{
+                @include typo($font-roboto-condensed,1.6rem,bold,$bgColor);
+            }
+            a{
+                @include typo($font-roboto-condensed,1.8rem,bold,$primaryColor);
+            &:hover{
+                text-decoration: underline;
+                text-decoration-color: red;
+            }
+            }
+        }
+    }
+}
+.editors-pic-container{
+    .editors-row{
+        .editors-column{
+            a{
+                @include typo($font-roboto-condensed,2.1rem,bold,$primaryColor);
+                &:hover{
+                    text-decoration: underline;
+                    text-decoration-color: red;
+                }
+            }
+            p{
+                @include typo($font-stack-arial,1.5rem,none,$primaryColor);
+            }
+        }
+    }
+}
+.slideshow-column{
+    @include typo($font-roboto-condensed,2.1rem,bold,$primaryColor);
+}
+.us-col{
+    @include typo($font-roboto-condensed,2.1rem,bold,$primaryColor);
+    @include padding(1rem 1rem);
+    border-bottom:solid 0.1rem $lighter;
+    .side-row{
+        @include typo($font-roboto-condensed,1.4rem,bold,$primaryColor); 
+        @include padding(1rem 1rem);
+        border-bottom:solid 0.1rem $lighter;
+    }
+}
+.news-letter1{
+    @include padding(2rem 1rem);
+    img{
+        &:first-child{
+            position: relative;
+            top:-5rem;
+            left:-5rem;
+            z-index: -107;
         }
     }
 }
