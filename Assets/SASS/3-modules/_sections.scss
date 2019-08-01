@@ -170,3 +170,27 @@
     @include typo($font-roboto-condensed,2.2rem,bold,$bgColor);
     padding-left:2rem;
 }
+.inthe-magazine{
+    h1{
+        position: absolute;
+        right:40rem;
+    }
+    .features-world-row2{
+        h2{
+            @include typo($font-roboto-condensed,2.0rem,bold,$bgColor);
+        }
+        a{
+            @include typo($font-roboto-condensed,1.6rem,bold,$primaryColor);
+        }
+    
+    }
+    .features-world-row1{
+        
+        @extend .features-world-row2;
+        .features-world-col{
+            margin-top:4rem;
+            border-top:0.1rem solid $lighter;
+            padding-top:2rem;
+        }
+    }
+}

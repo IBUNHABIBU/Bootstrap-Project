@@ -269,4 +269,22 @@ a:hover {
   font-weight: bold;
   padding-left: 2rem; }
 
+.inthe-magazine h1 {
+  position: absolute;
+  right: 40rem; }
+.inthe-magazine .features-world-row2 h2, .inthe-magazine .features-world-row1 h2 {
+  color: #F72210;
+  font-size: 2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold; }
+.inthe-magazine .features-world-row2 a, .inthe-magazine .features-world-row1 a {
+  color: #000000;
+  font-size: 1.6rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold; }
+.inthe-magazine .features-world-row1 .features-world-col {
+  margin-top: 4rem;
+  border-top: 0.1rem solid #cac7c7;
+  padding-top: 2rem; }
+
 /*# sourceMappingURL=app.css.map */
