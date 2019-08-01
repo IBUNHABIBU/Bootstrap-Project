@@ -177,20 +177,43 @@
     }
     .features-world-row2{
         h2{
-            @include typo($font-roboto-condensed,2.0rem,bold,$bgColor);
+            @include typo($font-roboto-condensed,1.6rem,bold,$bgColor);
+            padding-top: 1rem;
+            .head-deco{
+                background-color: $bgColor;
+                color:white;
+                @include padding(0.5rem 1rem);
+            }
         }
         a{
             @include typo($font-roboto-condensed,1.6rem,bold,$primaryColor);
         }
-    
     }
     .features-world-row1{
-        
         @extend .features-world-row2;
         .features-world-col{
             margin-top:4rem;
             border-top:0.1rem solid $lighter;
             padding-top:2rem;
+        }
+        .magazine-div{
+            a{
+                background: rgb(189, 189, 189);
+                position: relative;
+                top:-2rem;
+                width:40rem;
+                @include padding(1.5rem 7.3rem);
+                &:after{
+                background-image: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg);
+                }
+            }
+            .in-magazin-heading{
+            background: $lighter;
+            @include padding(0.5rem 1rem);
+            width:70%;
+            position: relative;
+            top:-3rem;
+            }
         }
     }
 }
