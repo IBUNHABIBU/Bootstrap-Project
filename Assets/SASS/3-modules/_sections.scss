@@ -1,6 +1,6 @@
 .story-heading{
     width:26rem;
-    @include typo($font-roboto-condensed,1.6rem,bold,$secondaryColor);
+    @include typo($font-roboto-condensed,1.6rem,bold,$lighter);
 }
 .news-heading{
     @include typo($font-roboto-condensed,2.4rem,none,$primaryColor);
@@ -60,6 +60,21 @@
             }
         }
     }
+}
+.editors-pic-heading{
+     .icon-n {
+         display: block;
+         position: relative;
+         left:-3rem;
+         top:3rem;
+        width: 29px;
+        height: 28px;
+        margin-right: 10px;
+        background: url(https://g.newsweek.com/www/images/logo-n1.svg) center center / contain no-repeat rgb(247, 34, 16);
+    }
+    @include padding(1rem 50rem);
+    border-bottom: 0.1rem solid $lighter;
+    margin-bottom: 1.9rem;
 }
 .editors-pic-container{
     .editors-row{
@@ -203,8 +218,7 @@
                 top:-2rem;
                 width:40rem;
                 @include padding(1.5rem 7.3rem);
-                &:after{
-                background-image: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg);
+                &::after{
                 }
             }
             .in-magazin-heading{
@@ -213,7 +227,11 @@
             width:70%;
             position: relative;
             top:-3rem;
+           
             }
         }
     }
+}
+.slideshow-heading{
+    @extend .editors-pic-heading;
 }

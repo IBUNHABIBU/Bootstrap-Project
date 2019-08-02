@@ -8,12 +8,23 @@ header{
     }
    .row{
        div{
-           .btn{
-               font: {
-                   family:$font-roboto-condensed;
-                   size: 1.8rem;
-               }
+           .sign-in-btn{
+            position: relative;
+            left:19rem;
+    @include typo($font-roboto-condensed,1.7rem,bold,$bgColor);
+             
            }
+           .subscribe-btn{
+            background: white;
+            color:red;
+    @include typo($font-roboto-condensed,1.7rem,bold,$bgColor);
+    position: relative;
+    left:19rem;
+    svg{
+        width:0.8rem;
+        fill:red;
+    }
+        }
        }
    }
 }
