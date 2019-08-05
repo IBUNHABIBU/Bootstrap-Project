@@ -1,77 +1,445 @@
-/*
-Error: File to import not found or unreadable: base.
-        on line 5 of SASS/1-base/_base-dir.scss
-        from line 12 of sass/app.scss
+/* stylelint-disable order/properties-alphabetical-order */
+/* stylelint-enable */
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px; }
 
-1: 
-2: // ***************  VARIABLES   **********************************************************************************
-3: @import "variables";
-4: 
-5: //***************** PLUGINS **************************************************************************************************
-6:  @import "0-plugins/bourbon/bourbon/";
-7: 
-8: //***************** PLUGINS *****************************************************************************************
-9: @import "0-plugins/plugins-dir";
-10: 
+* {
+  box-sizing: inherit; }
+  *:before {
+    box-sizing: inherit; }
+  *:after {
+    box-sizing: inherit; }
 
-Backtrace:
-SASS/1-base/_base-dir.scss:5
-sass/app.scss:12
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: base.\A         on line 5 of SASS/1-base/_base-dir.scss\A         from line 12 of sass/app.scss\A \A 1: \A 2: // ***************  VARIABLES   **********************************************************************************\A 3: @import \"variables\";\A 4: \A 5: //***************** PLUGINS **************************************************************************************************\A 6:  @import \"0-plugins/bourbon/bourbon/\";\A 7: \A 8: //***************** PLUGINS *****************************************************************************************\A 9: @import \"0-plugins/plugins-dir\";\A 10: "; }
+header .fa-bars {
+  display: none; }
+
+.navbar-item {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2.1rem;
+  font-weight: bold; }
+
+svg {
+  fill: white; }
+
+.has-search {
+  color: #000000;
+  font-size: 1.7rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: none;
+  width: 70%;
+  transition: width 0.2s; }
+  .has-search .fa-search {
+    position: relative;
+    top: -2rem;
+    left: 5rem; }
+
+.red-shape {
+  position: relative;
+  top: 0;
+  left: 120rem;
+  height: 1.3rem;
+  width: 15.0rem;
+  background-color: #f72210;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%); }
+
+.footer-top .brand svg,
+.footer-top p,
+.footer-top ul {
+  margin-bottom: 12px; }
+.footer-top .brand svg {
+  margin-right: 15px;
+  width: 236px;
+  fill: red; }
+.footer-top p {
+  font-size: 12px;
+  line-height: 12px; }
+.footer-top ul {
+  padding: 0; }
+  .footer-top ul li {
+    margin-right: 10px; }
+    .footer-top ul li svg {
+      height: 26px;
+      fill: #555; }
+
+.footer-links {
+  padding-top: 6px; }
+  .footer-links label {
+    margin-right: 15px;
+    margin-top: 2px; }
+  .footer-links .menu {
+    padding: 0;
+    margin: 0; }
+    .footer-links .menu :nth-last-child(1) {
+      border-right: none; }
+    .footer-links .menu li {
+      display: flex;
+      align-items: center;
+      max-height: 15px;
+      padding-right: 10px;
+      margin: 6px 10px 6px 0; }
+
+@media screen and (max-width: 36rem) {
+  body {
+    width: 100%; }
+
+  header {
+    width: 300rem; }
+    header .date-div {
+      display: none; }
+    header .row .btn {
+      width: 30%;
+      font-size: 11rem;
+      position: relative;
+      left: -10rem; }
+    header .fa-bars {
+      display: block;
+      padding-left: 1rem;
+      font-size: 4rem;
+      color: white; }
+
+  svg {
+    width: 30%; } }
+.sign-up-newsletter {
+  padding: 1rem;
+  background: #cac7c7;
+  margin: 2rem;
+  border: 1rem solid #cac7c7; }
+  .sign-up-newsletter p {
+    color: #000000;
+    font-size: 1.7rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: none; }
+  .sign-up-newsletter h2 {
+    color: #000000;
+    font-size: 1.7rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: none;
+    margin-left: 1rem; }
+  .sign-up-newsletter img {
+    width: 5rem;
+    background-color: red;
+    float: left;
+    margin: 1rem;
+    clear: both; }
+  .sign-up-newsletter .btn {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.7rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: none; }
+    .sign-up-newsletter .btn:after {
+      content: "";
+      display: inline-block;
+      width: 8px;
+      height: 14px;
+      margin-left: 10px;
+      background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat; }
+
+.inthe-magazine .row .col-lg-3 img {
+  width: 33rem; }
+
+.card .sponsored {
+  width: 60%;
+  background: #d0d0d1;
+  color: blue;
+  padding: 0.5rem 0.1rem;
+  position: relative;
+  top: -2.8rem; }
+.card .card-body .card-text {
+  font-size: 1.6rem; }
+
+header {
+  width: 100%;
+  background: #F72210;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-family: "Roboto Condensed", sans-serif; }
+  header .row div .sign-in-btn {
+    position: relative;
+    left: 19rem;
+    color: #F72210;
+    font-size: 1.7rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold; }
+  header .row div .subscribe-btn {
+    background: white;
+    color: red;
+    color: #F72210;
+    font-size: 1.7rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 19rem; }
+    header .row div .subscribe-btn svg {
+      width: 0.8rem;
+      fill: red; }
+
+.more-story-container .row {
+  border-top: 1px solid #cac7c7;
+  padding-top: 2rem; }
+
+.opinion-container .row {
+  border-bottom: 1px solid #cac7c7;
+  padding-top: 2rem;
+  padding-bottom: 1rem; }
+
+a {
+  color: black; }
+
+a:hover {
+  color: #F72210;
+  text-decoration: none; }
+
+.story-heading {
+  width: 26rem;
+  color: #cac7c7;
+  font-size: 1.6rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold; }
+
+.news-heading {
+  color: #000000;
+  font-size: 2.4rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: none; }
+
+.news-paragraph {
+  color: #333333;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: none; }
+
+.picture-heading {
+  color: #F72210;
+  font-size: 1.7rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: -4rem;
+  bottom: -4rem;
+  padding: 1rem;
+  background: #fdf8f8;
+  width: 30%; }
+
+.more-story-heading {
+  color: #000000;
+  font-size: 1.4rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold; }
+
+.more-story-paragraph {
+  color: #333333;
+  font-size: 1.4rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: none; }
+
+.culture-travel {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #f7f6f6; }
+  .culture-travel h4 {
+    color: #272727;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; }
+  .culture-travel p {
+    color: #272727;
+    font-size: 1.5rem;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: none; }
+  .culture-travel a {
+    color: #272727;
+    font-size: 1.3rem;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: none;
+    background: #dad7d7;
+    padding: 0.5rem 1rem; }
+    .culture-travel a:hover {
+      background: #5f5f5f; }
+
+.features-world-container .features-world-row .features-world-col h2 {
+  color: #F72210;
+  font-size: 1.6rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold; }
+.features-world-container .features-world-row .features-world-col a {
+  color: #000000;
+  font-size: 1.8rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold; }
+  .features-world-container .features-world-row .features-world-col a:hover {
+    text-decoration: underline;
+    text-decoration-color: red; }
+
+.editors-pic-heading, .slideshow-heading {
+  padding: 1rem 50rem;
+  border-bottom: 0.1rem solid #cac7c7;
+  margin-bottom: 1.9rem; }
+  .editors-pic-heading .icon-n, .slideshow-heading .icon-n {
+    display: block;
+    position: relative;
+    left: -3rem;
+    top: 3rem;
+    width: 29px;
+    height: 28px;
+    margin-right: 10px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center center/contain no-repeat #f72210; }
+
+.editors-pic-container .editors-row .editors-column a {
+  color: #000000;
+  font-size: 2.1rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold; }
+  .editors-pic-container .editors-row .editors-column a:hover {
+    text-decoration: underline;
+    text-decoration-color: red; }
+.editors-pic-container .editors-row .editors-column p {
+  color: #000000;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: none; }
+
+.slideshow-column {
+  color: #000000;
+  font-size: 2.1rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold; }
+
+.us-col {
+  color: #000000;
+  font-size: 2.1rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  padding: 1rem;
+  border-bottom: solid 0.1rem #cac7c7; }
+  .us-col .side-row {
+    color: #000000;
+    font-size: 1.4rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    border-bottom: solid 0.1rem #cac7c7; }
+
+.news-letter1 {
+  padding: 4rem 1rem;
+  margin-bottom: 3rem;
+  background: #dddcdc;
+  width: 105%; }
+  .news-letter1 h5 {
+    color: #000000;
+    font-size: 2.1rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: -8rem;
+    width: 130%; }
+  .news-letter1 .btn {
+    background: #F72210;
+    color: none;
+    font-size: 2.1rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: none;
+    border: none; }
+    .news-letter1 .btn:hover {
+      background-color: #860303; }
+    .news-letter1 .btn svg {
+      width: 1rem; }
+  .news-letter1 p {
+    position: relative;
+    left: -8rem;
+    color: #000000;
+    font-size: 1.5rem;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: none; }
+  .news-letter1 img:nth-child(2) {
+    position: relative;
+    top: 1rem;
+    left: -10rem; }
+  .news-letter1 img:nth-child(1) {
+    padding-right: 0;
+    padding-left: 7rem; }
+
+.news-letter2 {
+  margin-bottom: 3rem; }
+  .news-letter2 img {
+    height: 30.6rem; }
+  .news-letter2 h5 {
+    color: #000000;
+    font-size: 2.1rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    left: -8rem;
+    width: 130%; }
+  .news-letter2 .btn {
+    background: #F72210;
+    color: none;
+    font-size: 2.1rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: none;
+    border: none; }
+    .news-letter2 .btn:hover {
+      background-color: #860303; }
+    .news-letter2 .btn svg {
+      width: 1rem; }
+  .news-letter2 p {
+    left: -8rem;
+    color: #000000;
+    font-size: 1.5rem;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: none; }
+
+.newsletter-subscription h1 {
+  color: #F72210;
+  font-size: 1.6rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: none;
+  margin-top: 2rem;
+  margin-left: 2rem; }
+
+.small-heading {
+  color: #F72210;
+  font-size: 2.2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  padding-left: 2rem; }
+
+.inthe-magazine h1 {
+  position: absolute;
+  right: 40rem; }
+.inthe-magazine .features-world-row2 h2, .inthe-magazine .features-world-row1 h2 {
+  color: #F72210;
+  font-size: 1.6rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  padding-top: 1rem; }
+  .inthe-magazine .features-world-row2 h2 .head-deco, .inthe-magazine .features-world-row1 h2 .head-deco {
+    background-color: #F72210;
+    color: white;
+    padding: 0.5rem 1rem; }
+.inthe-magazine .features-world-row2 a, .inthe-magazine .features-world-row1 a {
+  color: #000000;
+  font-size: 1.6rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold; }
+.inthe-magazine .features-world-row1 .features-world-col {
+  margin-top: 4rem;
+  border-top: 0.1rem solid #cac7c7;
+  padding-top: 2rem; }
+.inthe-magazine .features-world-row1 .magazine-div a {
+  background: #bdbdbd;
+  position: relative;
+  top: -2rem;
+  width: 40rem;
+  padding: 1.5rem 7.3rem; }
+.inthe-magazine .features-world-row1 .magazine-div .in-magazin-heading {
+  background: #cac7c7;
+  padding: 0.5rem 1rem;
+  width: 70%;
+  position: relative;
+  top: -3rem; }
+
+/*# sourceMappingURL=app.css.map */
