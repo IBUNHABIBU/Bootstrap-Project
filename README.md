@@ -6,7 +6,7 @@
 * Bourbon SASS framework
 ### I used to clone the newsweek website
 
-## Contributers
+## Author
 Salum Habibu
 
 ## live version
