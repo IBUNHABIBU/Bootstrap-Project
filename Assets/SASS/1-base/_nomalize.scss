@@ -7,6 +7,7 @@ html{
   font-size: 10px;
 }
 *{
+  box-sizing: inherit;
   &:before{
     box-sizing: inherit;
   }

@@ -1,18 +1,38 @@
 // *********************** SIGN UP NEWSLETTER   *********************************************************
 .sign-up-newsletter{
     padding:1rem;
-    background: $lightColor;
+    background: $lighter;
+    margin: 2rem;
+    border: 1rem solid $lighter;
 
     p{
-        @include typo($font-roboto-condensed,1.7rem,none,white);
+        @include typo($font-roboto-condensed,1.7rem,none,$primaryColor);
     }
     h2{
         
-        @include typo($font-roboto-condensed,1.7rem,none,white);
+        @include typo($font-roboto-condensed,1.7rem,none,$primaryColor);
+        margin-left: 1rem;
     }
     img{
         width:5rem;
         background-color: red;
+        float: left;
+        margin:1rem;
+        clear: both;
+    }
+    .btn{
+        text-transform: uppercase;
+        @include typo($font-roboto-condensed,1.7rem,none,white);
+        
+        &:after{
+        
+                content: "";
+                display: inline-block;
+                width: 8px;
+                height: 14px;
+                margin-left: 10px;
+                background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
+        }
     }
 }
 
@@ -29,3 +49,22 @@
         }
     }
 }
+
+.card{
+    
+.sponsored{
+    width:60%;
+    background: rgb(208, 208, 209);
+    color: blue;
+    @include padding(0.5rem 0.1rem);
+    position: relative;
+    top:-2.8rem;
+}
+.card-body{
+    .card-text{
+        font-size: 1.6rem;
+    }
+}
+}
+
+

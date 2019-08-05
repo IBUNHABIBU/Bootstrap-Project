@@ -6,10 +6,15 @@ html {
   box-sizing: border-box;
   font-size: 10px; }
 
-*:before {
+* {
   box-sizing: inherit; }
-*:after {
-  box-sizing: inherit; }
+  *:before {
+    box-sizing: inherit; }
+  *:after {
+    box-sizing: inherit; }
+
+header .fa-bars {
+  display: none; }
 
 .navbar-item {
   font-family: "Roboto Condensed", sans-serif;
@@ -18,6 +23,27 @@ html {
 
 svg {
   fill: white; }
+
+.has-search {
+  color: #000000;
+  font-size: 1.7rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: none;
+  width: 70%; }
+  .has-search .fa-search {
+    position: relative;
+    top: -2rem;
+    left: 5rem; }
+
+.red-shape {
+  position: relative;
+  top: 0;
+  left: 120rem;
+  height: 1.3rem;
+  width: 15.0rem;
+  background-color: #f72210;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%); }
 
 .footer-top .brand svg,
 .footer-top p,
@@ -57,25 +83,55 @@ svg {
 
 .sign-up-newsletter {
   padding: 1rem;
-  background: #555555; }
+  background: #cac7c7;
+  margin: 2rem;
+  border: 1rem solid #cac7c7; }
   .sign-up-newsletter p {
-    color: white;
+    color: #000000;
     font-size: 1.7rem;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: none; }
   .sign-up-newsletter h2 {
+    color: #000000;
+    font-size: 1.7rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: none;
+    margin-left: 1rem; }
+  .sign-up-newsletter img {
+    width: 5rem;
+    background-color: red;
+    float: left;
+    margin: 1rem;
+    clear: both; }
+  .sign-up-newsletter .btn {
+    text-transform: uppercase;
     color: white;
     font-size: 1.7rem;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: none; }
-  .sign-up-newsletter img {
-    width: 5rem;
-    background-color: red; }
+    .sign-up-newsletter .btn:after {
+      content: "";
+      display: inline-block;
+      width: 8px;
+      height: 14px;
+      margin-left: 10px;
+      background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat; }
 
 .inthe-magazine .row .col-lg-3 img {
   width: 33rem; }
 
+.card .sponsored {
+  width: 60%;
+  background: #d0d0d1;
+  color: blue;
+  padding: 0.5rem 0.1rem;
+  position: relative;
+  top: -2.8rem; }
+.card .card-body .card-text {
+  font-size: 1.6rem; }
+
 header {
+  width: 100%;
   background: #F72210;
   padding: 1rem;
   font-size: 1.6rem;

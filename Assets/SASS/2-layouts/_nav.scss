@@ -1,6 +1,10 @@
 //********************************************* nav file    *************************************************************************************
 //**********************    styling header  *******************************************************************************
-
+header{
+.fa-bars{
+    display:none;
+}
+}
 .navbar-item{
     font:{
         family: $font-roboto-condensed;
@@ -11,4 +15,26 @@
 }
 svg{
     fill:white;
+}
+
+// Search input
+.has-search{
+    
+     @include typo($font-roboto-condensed,1.7rem,none,$primaryColor);
+     width:70%;
+     .fa-search{
+         position: relative;
+         top:-2rem;
+         left:5rem;
+     }
+}
+.red-shape {
+    position: relative;
+    top: 0;
+    left: 120rem;
+    height: 1.3rem;
+    width: 15.0rem;
+    background-color: #f72210;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
 }
