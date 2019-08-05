@@ -22,6 +22,8 @@ svg{
     
      @include typo($font-roboto-condensed,1.7rem,none,$primaryColor);
      width:70%;
+     transition: width 0.2s;
+    
      .fa-search{
          position: relative;
          top:-2rem;

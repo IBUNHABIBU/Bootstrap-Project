@@ -29,7 +29,8 @@ svg {
   font-size: 1.7rem;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: none;
-  width: 70%; }
+  width: 70%;
+  transition: width 0.2s; }
   .has-search .fa-search {
     position: relative;
     top: -2rem;
@@ -45,6 +46,27 @@ svg {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%); }
 
+@media screen and (max-width: 36rem) {
+  body {
+    width: 100%; }
+
+  header {
+    width: 300rem; }
+    header .date-div {
+      display: none; }
+    header .row .btn {
+      width: 30%;
+      font-size: 11rem;
+      position: relative;
+      left: -10rem; }
+    header .fa-bars {
+      display: block;
+      padding-left: 1rem;
+      font-size: 4rem;
+      color: white; }
+
+  svg {
+    width: 30%; } }
 .footer-top .brand svg,
 .footer-top p,
 .footer-top ul {
