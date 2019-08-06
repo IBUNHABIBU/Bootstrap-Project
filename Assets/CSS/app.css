@@ -36,16 +36,6 @@ svg {
     top: -2rem;
     left: 5rem; }
 
-.red-shape {
-  position: relative;
-  top: 0;
-  left: 120rem;
-  height: 1.3rem;
-  width: 15.0rem;
-  background-color: #f72210;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%); }
-
 .footer-top .brand svg,
 .footer-top p,
 .footer-top ul {
@@ -82,27 +72,6 @@ svg {
       padding-right: 10px;
       margin: 6px 10px 6px 0; }
 
-@media screen and (max-width: 36rem) {
-  body {
-    width: 100%; }
-
-  header {
-    width: 300rem; }
-    header .date-div {
-      display: none; }
-    header .row .btn {
-      width: 30%;
-      font-size: 11rem;
-      position: relative;
-      left: -10rem; }
-    header .fa-bars {
-      display: block;
-      padding-left: 1rem;
-      font-size: 4rem;
-      color: white; }
-
-  svg {
-    width: 30%; } }
 .sign-up-newsletter {
   padding: 1rem;
   background: #cac7c7;
@@ -159,8 +128,6 @@ header {
   font-size: 1.6rem;
   font-family: "Roboto Condensed", sans-serif; }
   header .row div .sign-in-btn {
-    position: relative;
-    left: 19rem;
     color: #F72210;
     font-size: 1.7rem;
     font-family: "Roboto Condensed", sans-serif;
@@ -171,9 +138,7 @@ header {
     color: #F72210;
     font-size: 1.7rem;
     font-family: "Roboto Condensed", sans-serif;
-    font-weight: bold;
-    position: relative;
-    left: 19rem; }
+    font-weight: bold; }
     header .row div .subscribe-btn svg {
       width: 0.8rem;
       fill: red; }

@@ -10,8 +10,8 @@ header{
    .row{
        div{
            .sign-in-btn{
-            position: relative;
-            left:19rem;
+            // position: relative;
+            // left:19rem;
     @include typo($font-roboto-condensed,1.7rem,bold,$bgColor);
              
            }
@@ -19,8 +19,8 @@ header{
             background: white;
             color:red;
     @include typo($font-roboto-condensed,1.7rem,bold,$bgColor);
-    position: relative;
-    left:19rem;
+    // position: relative;
+    // left:19rem;
     svg{
         width:0.8rem;
         fill:red;
