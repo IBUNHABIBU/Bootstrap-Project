@@ -1,12 +1,19 @@
 @media screen and (min-width:768px)
 {
-    .editors-pic-heading
-    {
-        
-    }
+   .header-svg{
+       width:50%;
+   }
 }
 
-@media screen and (min-width:480px)
+@media screen and (max-width:480px)
 {
-    
-}
+    .header-svg{
+        width:40%;
+        position: relative;
+        top:2.6rem;
+    }
+    .red-shape{
+        display:none;
+    }
+ }
+ 
