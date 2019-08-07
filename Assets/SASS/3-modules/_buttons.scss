@@ -13,6 +13,8 @@ header{
             // position: relative;
             // left:19rem;
     @include typo($font-roboto-condensed,1.7rem,bold,$bgColor);
+    background: $bgColor;
+    color:white;
              
            }
            .subscribe-btn{

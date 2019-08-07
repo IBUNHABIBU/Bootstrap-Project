@@ -30,13 +30,14 @@ svg{
          left:5rem;
      }
 }
-// .red-shape {
-//     position: relative;
-//     top: 0;
-//     left: 120rem;
-//     height: 1.3rem;
-//     width: 15.0rem;
-//     background-color: #f72210;
-//     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
-//     clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
-// }
+.red-shape {
+    position: absolute;
+    top:9.1rem;
+    right:0;
+    height: 1.9rem;
+    width: 15.0rem;
+    background-color: #f72210;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+    z-index: 4758;
+}

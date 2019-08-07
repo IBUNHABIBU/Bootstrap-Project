@@ -36,6 +36,17 @@ svg {
     top: -2rem;
     left: 5rem; }
 
+.red-shape {
+  position: absolute;
+  top: 9.1rem;
+  right: 0;
+  height: 1.9rem;
+  width: 15.0rem;
+  background-color: #f72210;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+  z-index: 4758; }
+
 .footer-top .brand svg,
 .footer-top p,
 .footer-top ul {
@@ -131,7 +142,9 @@ header {
     color: #F72210;
     font-size: 1.7rem;
     font-family: "Roboto Condensed", sans-serif;
-    font-weight: bold; }
+    font-weight: bold;
+    background: #F72210;
+    color: white; }
   header .row div .subscribe-btn {
     background: white;
     color: red;
