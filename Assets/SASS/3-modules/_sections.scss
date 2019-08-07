@@ -109,12 +109,12 @@
      @include padding(4rem 1rem);
     margin-bottom: 3rem;
     background: rgb(221, 220, 220);
-    width:105%;
+    width:100%;
     h5{
         @include typo($font-roboto-condensed,2.1rem,bold,$primaryColor); 
-        position: relative;
-        left:-8rem;
-        width:130%;
+        // position: relative;
+        // left:-8rem;
+        width:100%;
     }
     .btn{
         background: $bgColor;
@@ -128,8 +128,8 @@
         }
     }
     p{
-        position: relative;
-        left:-8rem;
+        // position: relative;
+        // left:-8rem;
         @include typo($font-stack-helvetica,1.5rem,none,$primaryColor); 
     }
     img{
@@ -153,8 +153,8 @@
     h5{
         @include typo($font-roboto-condensed,2.1rem,bold,$primaryColor); 
         
-        left:-8rem;
-        width:100%;
+        // left:-8rem;
+        // width:100%;
     }
     .btn{
         background: $bgColor;

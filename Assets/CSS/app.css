@@ -72,9 +72,6 @@ svg {
       padding-right: 10px;
       margin: 6px 10px 6px 0; }
 
-@media screen and (min-width: 768px) {
-  .editors-pic-heading {
-    width: 10rem; } }
 .sign-up-newsletter {
   padding: 1rem;
   background: #cac7c7;
@@ -268,15 +265,13 @@ a:hover {
   padding: 4rem 1rem;
   margin-bottom: 3rem;
   background: #dddcdc;
-  width: 105%; }
+  width: 100%; }
   .news-letter1 h5 {
     color: #000000;
     font-size: 2.1rem;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: bold;
-    position: relative;
-    left: -8rem;
-    width: 130%; }
+    width: 100%; }
   .news-letter1 .btn {
     background: #F72210;
     color: none;
@@ -289,8 +284,6 @@ a:hover {
     .news-letter1 .btn svg {
       width: 1rem; }
   .news-letter1 p {
-    position: relative;
-    left: -8rem;
     color: #000000;
     font-size: 1.5rem;
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -311,9 +304,7 @@ a:hover {
     color: #000000;
     font-size: 2.1rem;
     font-family: "Roboto Condensed", sans-serif;
-    font-weight: bold;
-    left: -8rem;
-    width: 100%; }
+    font-weight: bold; }
   .news-letter2 .btn {
     background: #F72210;
     color: none;
