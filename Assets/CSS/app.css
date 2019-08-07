@@ -83,9 +83,15 @@ svg {
       padding-right: 10px;
       margin: 6px 10px 6px 0; }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .header-svg {
-    width: 50%; } }
+    width: 50%; }
+
+  header .fa-bars {
+    display: block;
+    font-size: 3rem;
+    color: white;
+    margin-left: 1rem; } }
 @media screen and (max-width: 480px) {
   .header-svg {
     width: 40%;
@@ -93,7 +99,13 @@ svg {
     top: 2.6rem; }
 
   .red-shape {
-    display: none; } }
+    display: none; }
+
+  header .fa-bars {
+    display: block;
+    font-size: 3rem;
+    color: white;
+    margin-left: 1rem; } }
 .sign-up-newsletter {
   padding: 1rem;
   background: #cac7c7;
