@@ -193,8 +193,25 @@
 }
 .inthe-magazine{
     h1{
-        @extend .editors-pic-heading;
-       
+        .icon-n {
+            display: block;
+           //  position: relative;
+           //  left:-3rem;
+           //  top:3rem;
+           width: 2.9rem;
+           height: 2.8rem;
+           margin-right: 0.5rem;
+           background: url(https://g.newsweek.com/www/images/logo-n1.svg) center center / contain no-repeat rgb(247, 34, 16);
+       }
+      // @include padding(1rem 50rem);
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+       margin-bottom:0;
+       position:relative;
+       top:4rem;
+       border-bottom: 0.01rem solid black;
+       width:100%;
     }
     .features-world-row2{
         h2{

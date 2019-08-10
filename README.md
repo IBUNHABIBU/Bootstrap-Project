@@ -8,7 +8,6 @@
 
 ## Author
 Salum Habibu
-
    [live demo version](https://raw.githack.com/IBUNHABIBU/Bootstrap-Project/bootstrap/index.html)
 
 
