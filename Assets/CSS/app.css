@@ -84,28 +84,50 @@ svg {
       margin: 6px 10px 6px 0; }
 
 @media screen and (max-width: 768px) {
-  .header-svg {
-    width: 50%; }
+  .red-shape {
+    display: none; }
 
-  header .fa-bars {
-    display: block;
-    font-size: 3rem;
-    color: white;
-    margin-left: 1rem; } }
+  .header-svg {
+    width: 35%;
+    position: relative;
+    top: 3rem;
+    left: 1rem; }
+
+  header {
+    width: 100%; }
+    header .fa-bars {
+      display: block;
+      font-size: 3rem;
+      color: white;
+      margin-left: 1rem; } }
 @media screen and (max-width: 480px) {
   .header-svg {
-    width: 30%;
+    width: 35%;
     position: relative;
-    top: 2.6rem; }
+    top: 2.9rem;
+    height: 90%;
+    left: -1rem; }
 
   .red-shape {
     display: none; }
 
   header .fa-bars {
-    display: block;
+    display: relative;
+    left: 1rem;
     font-size: 3rem;
     color: white;
-    margin-left: 1rem; } }
+    margin-left: 1rem; }
+
+  header .row div .sign-in-btn {
+    height: 40%;
+    font-size: 1rem;
+    width: 24%;
+    position: relative;
+    top: -2rem; }
+  header .row .subscribe-btn {
+    font-size: 1rem;
+    height: 80%;
+    padding: 0; } }
 .sign-up-newsletter {
   padding: 1rem;
   background: #cac7c7;
