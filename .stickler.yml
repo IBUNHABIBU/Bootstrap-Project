@@ -4,8 +4,3 @@ linters:
     eslint:
         config: './eslint.config'
     csslint:
-
-files:
-    ignore:
-        - 'src/generated/*'
-        - 'webroot/bower_components/*'
