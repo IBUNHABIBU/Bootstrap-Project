@@ -2,9 +2,9 @@
 This is the HTML and CSS project to implement the concepts that I have learn in bootstrap
 
 
-![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/feature2/app/assets/images/Homepage.png)
-![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/feature2/app/assets/images/catshow.png)
-![screenshot](https://github.com/IBUNHABIBU/lifestyle_articles/blob/feature2/app/assets/images/newarticle.png)
+![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/bootstrap/Assets/images/newsweekhome.PNG)
+![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/bootstrap/Assets/images/newsweekbody.PNG)
+![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/bootstrap/Assets/images/newsweekfooter.PNG)
 
 
 
