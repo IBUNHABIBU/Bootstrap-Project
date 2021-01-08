@@ -1,6 +1,5 @@
 #  Bootstrap-Project
-This is the HTML and CSS project to implement the concepts that I have learn in bootstrap
-
+This is the HTML and CSS project to implement the concepts that I have learnt in Bootstrap.
 
 ![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/bootstrap/Assets/images/newsweekhome.PNG)
 ![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/bootstrap/Assets/images/newsweekbody.PNG)
@@ -11,8 +10,8 @@ This is the HTML and CSS project to implement the concepts that I have learn in 
 ## Built with 
 * HTML
 * Bootstrap 4
-* SASS
-* Bourbon SASS framework
+* Sass
+* Bourbon Sass framework
 
 ## Features 
  I used to clone the [Newsweek website](https://www.newsweek.com/)
@@ -25,10 +24,10 @@ This is the HTML and CSS project to implement the concepts that I have learn in 
 * Github: Salum Habibu https://github.com/IBUNHABIBU 
 
 ## your support 
-Give a :star: if you liked this project 
+Give a :star: if you liked this project.
 ## Acknowledgments
 Credits goes to
-- My mentor Tunde Oratade for technical assistance
-- All Microverse TSEs for their feedback that make me to improve technically
+- My mentor Tunde Oratade for technical assistance.
+- All Microverse TSEs for their feedback that make me to improve technically.
 ## 📝 License
 This project is [MIT](LICENCE) licensed.
