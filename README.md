@@ -44,3 +44,13 @@ Credits goes to
 - All Microverse TSEs for their feedback that make me to improve technically.
 ## 📝 License
 This project is [MIT](LICENCE) licensed.
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/IBUNHABIBU/lifestyle_articles.svg?style=flat-square
+[contributors-url]: https://github.com/IBUNHABIBU/lifestyle_articles/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/IBUNHABIBU/lifestyle_articles.svg?style=flat-square
+[forks-url]: https://github.com/IBUNHABIBU/lifestyle_articles/network/members
+[stars-shield]: https://img.shields.io/github/stars/IBUNHABIBU/lifestyle_articles.svg?style=flat-square
+[stars-url]: https://github.com/IBUNHABIBU/lifestyle_articles/stargazers
+[issues-shield]: https://img.shields.io/github/issues/IBUNHABIBU/lifestyle_articles.svg?style=flat-square
+[issues-url]: https://github.com/IBUNHABIBU/lifestyle_articles/issues
