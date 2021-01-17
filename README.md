@@ -13,6 +13,7 @@
 
   <h2 align="center">Bootstrap-Project</h2>
   <h3 align="center">This is the HTML and CSS project to implement the concepts that I have learnt in Bootstrap. </h3>
+  
 ![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/bootstrap/Assets/images/newsweekhome.PNG)
 ![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/bootstrap/Assets/images/newsweekbody.PNG)
 ![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/bootstrap/Assets/images/newsweekfooter.PNG)
