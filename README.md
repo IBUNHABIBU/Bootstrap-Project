@@ -1,5 +1,4 @@
-#  Bootstrap-Project
-This is the HTML and CSS project to implement the concepts that I have learnt in Bootstrap.
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -12,8 +11,8 @@ This is the HTML and CSS project to implement the concepts that I have learnt in
     <p align="center"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rails/rails.png" alt="Ruby on rails" width="100" height="100"> </p>
   </a>
 
-  <h2 align="center">  Lifestyle articles</h2>
-  <h3 align="center"> Building a Rails website to post lifestyle articles </h3>
+  <h2 align="center">Bootstrap-Project</h2>
+  <h3 align="center">This is the HTML and CSS project to implement the concepts that I have learnt in Bootstrap. </h3>
 ![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/bootstrap/Assets/images/newsweekhome.PNG)
 ![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/bootstrap/Assets/images/newsweekbody.PNG)
 ![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/bootstrap/Assets/images/newsweekfooter.PNG)
