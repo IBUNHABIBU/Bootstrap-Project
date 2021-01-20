@@ -15,8 +15,8 @@
   <h3 align="center">This is the HTML and CSS project to implement the concepts that I have learnt in Bootstrap. </h3>
   
   <p align="center">
-    <a href="https://github.com/IBUNHABIBU/platform-game/issues">Report Bug</a>
-    <a href="https://github.com/IBUNHABIBU/platform-game/issues">Request Feature</a>
+    <a href="https://github.com/IBUNHABIBU/Bootstrap-Project/issues">Report Bug</a>
+    <a href="https://github.com/IBUNHABIBU/Bootstrap-Project/issues">Request Feature</a>
   </p>
 </p>
   
