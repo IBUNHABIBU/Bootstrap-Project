@@ -38,7 +38,9 @@
 
 
 ## Author
-* Github: Salum Habibu https://github.com/IBUNHABIBU 
+* Github: [Salum Habibu](https://github.com/IBUNHABIBU)
+* Twitter: [@ibunhabibu](https://twitter.com/Ibunhabibu)
+* LinkedIn: [Salum Habibu Kombo](https://www.linkedin.com/in/salum-habibu/)
 
 ## your support 
 Give a :star: if you liked this project.
