@@ -31,7 +31,8 @@
 * Bourbon Sass framework
 
 ## Features 
- I used to clone the [Newsweek website](https://www.newsweek.com/).
+* It is full responsive static website.
+* I used to clone the [Newsweek website](https://www.newsweek.com/).
 
 ## [Live demo](https://raw.githack.com/IBUNHABIBU/Bootstrap-Project/bootstrap/index.html "Of the project") of the project.
 
