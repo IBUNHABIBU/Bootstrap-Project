@@ -18,9 +18,9 @@
   </p>
 </p>
   
-![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/bootstrap/Assets/images/newsweekhome.PNG)
-![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/bootstrap/Assets/images/newsweekbody.PNG)
-![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/bootstrap/Assets/images/newsweekfooter.PNG)
+![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/master/Assets/images/newsweekhome.PNG)
+![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/master/Assets/images/newsweekbody.PNG)
+![screenshot](https://github.com/IBUNHABIBU/Bootstrap-Project/blob/master/Assets/images/newsweekfooter.PNG)
 
 
 
