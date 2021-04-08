@@ -10,7 +10,7 @@
   </a>
 
   <h2 align="center">Bootstrap-Project</h2>
-  <h3 align="center">This is the HTML and CSS project to implement the concepts that I have learnt in Bootstrap framework. I have designed the responsive website. </h3>
+  <h3 align="center"> I have built a responsive website using the Bootstrap framework. </h3>
   
   <p align="center">
     <a href="https://github.com/IBUNHABIBU/Bootstrap-Project/issues">Report Bug</a>
@@ -45,12 +45,11 @@
 ## your support 
 Give a :star: if you liked this project.
 ## Acknowledgments
-Credits goes to
+Credits go to
 - My mentor Tunde Oratade for technical assistance.
-- All Microverse TSEs for their feedback that make me to improve technically.
+- All Microverse TSEs for their feedback that makes me improve technically.
 ## 📝 License
 This project is [MIT](LICENCE) licensed.
-
 
 [contributors-shield]: https://img.shields.io/github/contributors/IBUNHABIBU/Bootstrap-Project.svg?style=flat-square
 [contributors-url]: https://github.com/IBUNHABIBU/Bootstrap-Project/graphs/contributors
