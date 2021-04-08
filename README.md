@@ -10,7 +10,7 @@
   </a>
 
   <h2 align="center">Bootstrap-Project</h2>
-  <h3 align="center">This is the HTML and CSS project to implement the concepts that I have learnt in Bootstrap. </h3>
+  <h3 align="center">This is the HTML and CSS project to implement the concepts that I have learnt in Bootstrap framework. I have designed the responsive website. </h3>
   
   <p align="center">
     <a href="https://github.com/IBUNHABIBU/Bootstrap-Project/issues">Report Bug</a>
